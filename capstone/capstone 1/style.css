@@ -1,0 +1,131 @@
+.top-container {
+    background-color: rgb(228, 249, 245);
+    position: relative;
+    padding-top: 100px;
+}
+.profile{
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+    padding-top: 100px;
+}
+div{
+    display: block;
+}
+body {
+    color: rgb(64, 81, 78);
+    text-align: center;
+    font-family: Merriweather, serif;
+    margin: 0%;
+}
+.top-cloud{
+     
+        position: absolute;
+        right: 900px;
+        top: 40px;   
+}
+
+
+h1 {
+    color: #66bfbf;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+}
+h2 {
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.pro{
+    text-decoration: underline;
+}
+.middle{
+    margin: 100px;
+}
+.img{
+    height: 200px;
+    border-radius: 60%;
+}
+hr{
+    
+        border: dotted #98c4c4 12px;
+        border-bottom: none;
+        width: 4%;
+        margin: 100px auto;
+        justify-content: center;
+    
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 50px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+.par{
+    line-height: 2;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+   
+}
+.h3{
+    color: #129191f8;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.typing{
+    
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    padding: 50px;
+}
+.health{
+
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    padding: 50px 20px;
+}
+.btn{
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-weight: normal;
+    padding-bottom: 10x;
+}
+
+
+.bottom {
+    background-color: rgb(102, 191, 191);
+    padding:  50px 0 20px;
+}
+
+a{
+    color: darkgreen;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.copyright{
+    color: white;
+    font-size: 0.75rem;
+    padding: 2opx;
+}
+
+   
